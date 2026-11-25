@@ -1,0 +1,10 @@
+# Dati: non caricare su GitHub
+data/*.csv
+!data/sample/*.csv
+
+# Ambiente virtuale
+.venv/
+
+# Power BI: file di cache locali
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
